@@ -53,7 +53,6 @@ git push -u origin main
 # git remote == shows you the variable named (origin) which contains the github repo link 
 
 """
->> git branch -M main
 >> git push -u origin main ::
 transfer all your works and commits to GitHub
 using -u allows you to use:
@@ -63,11 +62,8 @@ without specifying anything.
 if you didn't use -u, you have to write:
 git push origin
 everytime you want to push your modifications.
-
-^^ Search more about these two commands
 """
 # git pull == Brings the changes in online-repo in GitHub to your local-repo on your device
-
-
+# git chechout == Revert back to the file status in GitHub website
 print('Hello from Github website')
-print('new print in master')
+# better practice: always pull before push
