@@ -41,3 +41,29 @@ to merge sub-branch with master-branch:
 1- move to master-branch (git checkout master)
 2- merge sub-branch with master-branch (git merge sub-branch)
 """
+# git branch -d branch-name == removes a branch
+# ^^ It's a better practice to delete a sub-branch after merging it with master-branch
+
+# push existing repo to GitHub:
+"""
+git remote add origin https://github.com/zalharbi5/git-lessons.git
+git branch -M main
+git push -u origin main
+"""
+# git remote == shows you the variable named (origin) which contains the github repo link 
+
+"""
+>> git branch -M main
+>> git push -u origin main ::
+transfer all your works and commits to GitHub
+using -u allows you to use:
+git push
+without specifying anything.
+
+if you didn't use -u, you have to write:
+git push origin
+everytime you want to push your modifications.
+
+^^ Search more about these two commands
+"""
+# git pull == Brings the changes in online-repo in GitHub to your local-repo on your device
