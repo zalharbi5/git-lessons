@@ -1,6 +1,7 @@
 print("Hello version control")
 print("Welcome all!")
 print("New print")
+
 """
 To config:
 git config --global user.name "your name"
@@ -35,8 +36,8 @@ Quit the pager: Use q.
 # git checkout branch-name == moves you to the specified branch
 # git checkout -b branch-name = create a new branch then move to it (2 commands in 1)
 
-# to merge sub-branch with master-branch:
 """
+to merge sub-branch with master-branch:
 1- move to master-branch (git checkout master)
-2- 
+2- merge sub-branch with master-branch (git merge sub-branch)
 """
