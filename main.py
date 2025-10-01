@@ -1,6 +1,6 @@
 print("Hello version control")
 print("Welcome all!")
-print("New print")
+print("This is a conflict from GitHub")
 
 """
 To config:
